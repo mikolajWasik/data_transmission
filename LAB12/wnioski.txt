@@ -1,0 +1,8 @@
+Przede wszystkim kody Hamminga (7, 4) i (15, 11) mają kilka zasadniczych różnic.
+Kod (7, 4) w porównaniu do (15, 11) jest stosunkowo mało wydajny pod względem liczby przesyłanych bitów, ponieważ w zasadzie połowę przesyłanej nim wiadomości stanowią bity, które odpowiadają za zakodowanie pozostałej połowy.
+Kod (15, 11) wymaga tylko 1 bitu więcej przeznaczonego do kodowania i sprawdzania poprawności właściwej porcji informacji, podczas gdy może przesłać niemal 3 razy więcejsamych bitów tej informacji.
+Naturalnie idzie za tym większa złożoność operacji potrzebnych do otrzymania kodu (15, 11), co zajmuje każdorazowo więcej czasu, a także wymaga więcej pamięci przede wszystkim na utworzenie kilku dwuwymiarowych tablic.
+Tymczasem kod (7, 4) nie wymaga tworzenia ani jednej takiej tablicy, a więc sporo szybciej trwa każdorazowe sprawdzenie poprawności porcji danych a także naprawienie ewentualnego błędu.
+Podobieństwem między nimi jest za to ogólna zasada działania. Porcja informacji jest opakowywana jest w dodatkowe bity służące do sprawdzenia poprawności tej informacji oraz naprawienia jej jeśli uszkodzony został tylko jeden bit lub zwróceniu informacji o tym, że uszkodzeniu uległo zbyt wiele bitów i potrzeba wysłać wiadomośc ponownie.
+Oba kody sprawdzają to z pomocą dodawania modulo 2 i znacznie zwiększają wiarygodność przesyłanych danych.
+Przy obecnych parametrach urządzeń przesyłających dane wydaje mi się, że bardziej wydajne jest stosowanie kodu (15, 11), jednak przy jego użyciu jest większa szansa na uszkodzenie większej liczby bitów, ponieważ ma on znacznie dłuższą część wiadomości, która jest właściwą informacją.
