@@ -25,3 +25,25 @@ Signal 'x' was made by adding signals 's1' and 's2' together. Signal 'M' is sign
 ![obraz](https://github.com/mikolajWasik/data_transmission/assets/96197911/23635482-c51d-4617-b918-7251d4a68ed8)
 ![obraz](https://github.com/mikolajWasik/data_transmission/assets/96197911/5dc60892-ccc7-4f21-b4c4-17917904e99f)
 ![obraz](https://github.com/mikolajWasik/data_transmission/assets/96197911/2bfba109-c9c0-4a8e-995c-ddb33a4df479)
+
+
+# Different types of modulation
+Here's a short sequence of zeros and ones that represents a sample message. The message is then converted to a sine function whose parts are modulated appropriately depending on whether they represent zeros or ones. From the top, under the message there is an amplitude modulation, a phase modulation and a frequency modulation.
+
+![obraz](https://github.com/mikolajWasik/data_transmission/assets/96197911/fd3fdb6c-493f-47b6-bfd0-eb763cc48cf9)
+
+
+Once modulated, the message should be demodulated in a manner depending on the type of modulation it has undergone.
+Amplitude demodulation:
+
+![obraz](https://github.com/mikolajWasik/data_transmission/assets/96197911/07f55dc7-6bfc-4203-9923-4a06156f19d6)
+
+
+Phase demodulation:
+
+![obraz](https://github.com/mikolajWasik/data_transmission/assets/96197911/598b69b4-fe06-4bd8-94d8-d03fbf42179a)
+
+
+Frequency demodulation:
+
+![obraz](https://github.com/mikolajWasik/data_transmission/assets/96197911/d7d44275-37c8-4203-82c5-40ccd66424e6)
