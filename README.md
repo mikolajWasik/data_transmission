@@ -12,7 +12,6 @@ Signal 'x' is a basic signal. Then 'y' was generated based on 'x', 'z' based on 
 
 
 Here b1, b2 and b3 are the same signal, but every next is more detailed.
-
 ![obraz](https://github.com/mikolajWasik/data_transmission/assets/96197911/102c63fc-b0a2-463d-b520-081e5f703d3b)
 ![obraz](https://github.com/mikolajWasik/data_transmission/assets/96197911/dd6a423c-18fe-42b2-a71a-9ddf3099f797)
 ![obraz](https://github.com/mikolajWasik/data_transmission/assets/96197911/d957b866-6e3e-462a-8b4a-b353dcc5515e)
