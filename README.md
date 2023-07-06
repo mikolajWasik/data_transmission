@@ -47,3 +47,19 @@ Phase demodulation:
 Frequency demodulation:
 
 ![obraz](https://github.com/mikolajWasik/data_transmission/assets/96197911/d7d44275-37c8-4203-82c5-40ccd66424e6)
+
+
+# Hamming's algorithm (7,4)
+The algorithm is used for checking if a message was corrupted during its transmission. It takes the message written in a form of bits (0 and 1) and creates groups out of every four consecutive bits. After that, every gruop of bits is written in a form of template [pb, pb, mb, pb, mb, mb, mb], where 'mb' is message bit and 'pb' is parity bit. Parity bits are computed from message bits before transmission. After the transmission, algorithm decodes template and is able to indicate if any bits have been corrupted. If none of the bits were corrupted, then everything is fine. If only one bit was corrupted - algorithm will now which one it was and will fix it. If more bits were corrupted, then this part of message should be send again.
+
+There is a word 'msg' written as bits based on every letter's ASCII value written in the binary system:
+
+![obraz](https://github.com/mikolajWasik/data_transmission/assets/96197911/d6c19146-516b-444e-a903-6bc12ff1336f)
+
+The last line means there are no errors.
+
+Here I manually changed 6th bit after computing all parity bits:
+
+![obraz](https://github.com/mikolajWasik/data_transmission/assets/96197911/6e746c3a-7b23-45ed-9b9d-f04e217019f8)
+
+The algorithm fixed it on its own.
