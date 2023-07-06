@@ -1,6 +1,6 @@
 # Data transmission
 # Description
-In this repository, I keep codes that are solutions to tasks from a university course on data transmission. In the first few tasks, several signals and their graphs versus time were generated using 'matplotlib.pyplot'. Then various, increasingly complex operations were carried out on those signals. Starting from the use of Fourier transform to change the domain of a function from time to frequency, through the use of different types of modulation and demodulation, to the use of Hamming encoders and decoders to correct interference simulated by adding white noise to the actual signal.
+This repository contains codes that are solutions to tasks from a university course on data transmission. In the first few tasks, several signals and their graphs versus time were generated using 'matplotlib.pyplot'. Then various, increasingly complex operations were carried out on those signals. Starting from the use of Fourier transform to change the domain of a function from time to frequency, through the use of different types of modulation and demodulation, to the use of Hamming encoders and decoders to correct interference simulated by adding white noise to the actual signal.
 
 # Generating signals
 Signal 'x' is a basic signal. Then 'y' was generated based on 'x', 'z' based on 'y' and finally, 'v' based on 'z'.
