@@ -1,6 +1,6 @@
 # Data transmission
 # Description
-In this repository, codes are stored that are solutions to tasks from a course on data transmission studies. In the first few tasks, various signals and their graphs versus time were generated using 'matplotlib.pyplot'. Then various, increasingly complex operations were carried out on these signals. Starting from the use of Fourier transforms to change the domain of a function from time to frequency, through the use of various types of modulation and demodulation, to the use of Hamming encoders and decoders to correct interference simulated by adding white noise to the actual signal.
+In this repository, I keep codes that are solutions to tasks from a university course on data transmission. In the first few tasks, various signals and their graphs versus time were generated using 'matplotlib.pyplot'. Then various, increasingly complex operations were carried out on these signals. Starting from the use of Fourier transforms to change the domain of a function from time to frequency, through the use of various types of modulation and demodulation, to the use of Hamming encoders and decoders to correct interference simulated by adding white noise to the actual signal.
 
 # Generating signals
 Signal 'x' is a basic signal. Then 'y' was generated based on 'x', 'z' based on 'y' and finally, 'v' based on 'z'.
@@ -50,7 +50,7 @@ Frequency demodulation:
 
 
 # Hamming's algorithm (7,4)
-The algorithm is used for checking if a message was corrupted during its transmission. It takes the message written in a form of bits (0 and 1) and creates groups out of every four consecutive bits. After that, every gruop of bits is written in a form of template [pb, pb, mb, pb, mb, mb, mb], where 'mb' is message bit and 'pb' is parity bit. Parity bits are computed from message bits before transmission. After the transmission, algorithm decodes template and is able to indicate if any bits have been corrupted. If none of the bits were corrupted, then everything is fine. If only one bit was corrupted - algorithm will now which one it was and will fix it. If more bits were corrupted, then this part of message should be send again.
+The algorithm is used for checking if a message was corrupted during its transmission. It takes the message written in a form of bits (0 and 1) and creates groups out of every four consecutive bits. After that, every group of bits is written in a form of template [pb, pb, mb, pb, mb, mb, mb], where 'mb' is message bit and 'pb' is parity bit. Parity bits are computed from message bits before transmission. After the transmission, algorithm decodes template and is able to indicate if any bits have been corrupted. If none of the bits were corrupted, then everything is fine. If only one bit was corrupted - algorithm will know which one it was and will fix it. If more bits were corrupted, then this part of message should be send again.
 
 There is a word 'msg' written as bits based on every letter's ASCII value written in the binary system:
 
