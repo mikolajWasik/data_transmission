@@ -1,3 +1,0 @@
-Tu znajdują się pliki z wykonanych zadań laboratoryjnych
-
-Zdaję sobie sprawę z tego, że mieliśmy nie robić zadań na ostatnią chwilę, jednak w tym tygodniu zadań ze wszystkich przedmiotów było na tyle dużo, że robienie jednego dziennie było w zasadzie jedynym sensownym wyjściem w moim przypadku. Dodatkowo wydaje mi się, że to zadanie nie było na tyle skomplikowane by zrobienie go w krótkim czasie pod wieczór dzień przed dowodziło posiłkowaniu się innymi kodami.
